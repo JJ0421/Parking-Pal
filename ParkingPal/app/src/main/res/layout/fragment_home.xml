@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jjw26.parkingpal.HomeFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="185dp"
+        android:orientation="vertical"
+        tools:context="com.example.jjw26.parkingpal.MainActivity">
+
+
+        <Button
+            android:id="@+id/getSpotId"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:elevation="0dp"
+            android:fontFamily="sans-serif"
+            android:onClick="getSpotClick"
+            android:text="@string/get_spot"
+            android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:animationCache="false"
+            android:orientation="vertical"
+            tools:context="com.example.jjw26.parkingpal.MainActivity">
+
+            <Button
+                android:id="@+id/setSpotId"
+                style="@android:style/Widget.Holo.Button"
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/roundedbutton"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:elevation="0dp"
+                android:fontFamily="sans-serif"
+                android:onClick="setSpotClick"
+                android:text="@string/set_spot"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ParkingPal</string>
+    <string name="get_spot">Find Spot</string>
+    <string name="set_spot">Save Spot</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_garage">Find Parking</string>
+    <string name="title_alarm">Timer</string>
+    <string name="clearHistoryButton">Clear History</string>
+    <string name="saveSpotButton">Set Spot</string>
+    <string name="deleteSpotButton">Delete Spot</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="seconds">Seconds</string>
+    <string name="startTimer">Start</string>
+    <string name="Cancel">Cancel</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
